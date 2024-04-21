@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SteelCity - Construction Building Template</title>
+    <meta name="description" content="SteelCity - Construction Building Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/fevicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
+    <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+    <!-- header part start -->
+    <div id="header-fixed-height"></div>
+    <header class="header-area-one" id="sticky-header">
+        <nav class="navbar navbar-expand-lg d-none d-lg-block">
+            <div class="container-fluid">
+                <a class="navbar-brand me-0" href="index.html">
+                    <img src="assets/img/logo/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#o-nas">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Услуги <i class="fas fa-chevron-down"></i></a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="#usl1">Закрытый каркас</a></li>
+                                <li><a href="#usl2">Монокосоур</a></li>
+                                <li><a href="#usl3">Ломаный косоур</a></li>
+                                <li><a href="#usl4">Уличные лестницы</a></li>
+                                <li><a href="#usl5">Винтовые лестницы</a></li>
+                                <li><a href="#usl6">Перила для лестниц</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Частые вопросы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#zayavka">Оставить заявку</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="header-right-info d-flex align-items-center">
+                        <div class="social">
+                            <ul class="list-unstyled">
+                                <li><a href="https://wa.me/79006223883"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a></li>
+                                <li><a href="https://t.me/+79006223883"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="help-number d-flex align-items-center">
+                            <a href="tel:+79006223883"> <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div></a>
+                            <div class="info">
+                                <p>Позвонить</p>
+                                <h6>
+                                    <a href="tel:+79006223883">
+                                        +7(900) 622-3883
+                                    </a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- mobile navbar part start -->
+        <div class="mobile-menu-area d-block d-lg-none">
+            <div class="mobile-topbar">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <img src="assets/img/logo/logo.png" alt="logo">
+                        </div>
+                        <div class="bars">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-overlay"></div>
+            <div class="mobile-menu-main">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+                </div>
+                <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
+                <div class="menu-body">
+                    <div class="menu-list">
+                        <ul class="list-unstyled">
+                            <li class="sub-mobile-menu">
+                                <a href="#o-nas">О компании</a>
+                            </li>
+                            <li class="sub-mobile-menu">
+                                <a href="#">Услуги<i class="fas fa-chevron-down float-end"></i></a>
+                                <ul class="list-unstyled">
+                                <li><a href="#usl1">Закрытый каркас</a></li>
+                                <li><a href="#usl2">Монокосоур</a></li>
+                                <li><a href="#usl3">Ломаный косоур</a></li>
+                                <li><a href="#usl4">Уличные лестницы</a></li>
+                                <li><a href="#usl5">Винтовые лестницы</a></li>
+                                <li><a href="#usl6">Перила для лестниц</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-mobile-menu">
+                                <a href="#faq">Частые вопросы</a>
+                            </li>
+                            <li class="sub-mobile-menu">
+                                <a href="#zayavka">Оставить заявку</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+               <!--<div class="social-icon">
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></li>
+        
+                    </ul>
+                </div> -->
+
+            </div>
+        </div>
+        <!-- mobile navbar part end -->
+    </header>
+    <!-- header part end -->
+
+    <!-- main area part start -->
+    <main>
+
+        <!-- banner part start -->
+        <section class="banner-area-one" data-background="assets/img/bg/banner-bg.jpg">
+            <svg class="banner-shape" viewBox="0 0 1056 979" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="primary-colour" d="M1197.56 1040L103.744 1040L231.189 818.024L266.474 755.955L327.563 862.735L763.09 862.735L981.643 481.904L764.143 101.074L641.964 101.074L716.746 -29.3763L776.255 -133L1197.56 -133L1197.56 1040Z" />
+                <path class="primary-colour" d="M206 869L649.304 89H773.856L995 479.513L777.415 869H206Z" />
+                <path class="black-colour" d="M647.5 92H321L160.5 373.5L310.5 685.5L647.5 92Z" />
+                <path class="black-colour" d="M165.887 383.537L133.762 327.254L132.183 324.624L131.656 323.572L195.905 211.006L334.41 -29.9063L338.096 -29.9063L582.454 -29.3802L716.746 -29.3802L641.964 101.07L626.165 101.07L347.576 101.07L328.09 101.07L165.887 383.537Z" />
+                <path class="primary-colour" d="M66.8821 1040L-0.000391173 1040L127.445 818.023L193.801 818.023L66.8821 1040Z" />
+                <path class="black-colour" d="M460.277 1040L103.746 1040L282.275 728.602L460.277 1040Z" />
+            </svg>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="banner-info">
+                            <span class="sub-title uppercase wow fadeInLeft" data-wow-delay=".2s">Изготовление лестниц</span>
+                            <h2 class="banner-title wow fadeInLeft" data-wow-delay=".4s">Изготовим лестницу премиум сегмента на заказ с индивидуальным дизайном</h2>
+                            <p class="wow fadeInLeft" data-wow-delay=".6s">Оставьте заявку и получите точный расчёт стоимости вашей лестницы! </p>
+                            <a href="#zayavka" class="common-btn uppercase wow fadeInLeft"
+                                data-wow-delay=".8s">Расчет стоимости <i class="fas fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="banner-image">
+                            <img src="assets/img/banner/main.png" alt="banner-image" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner part end -->
+
+        <!-- about us part start -->
+        <section class="about-us-area-one" id="o-nas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6 col-xxl-5">
+                        <div class="about-image position-relative">
+                            <div class="image">
+                                <img src="assets/img/about-us/about-us.png" alt="about-us">
+                            </div>
+                            <div class="active-customer d-flex align-items-center">
+                                <div class="icon">
+                                    <img src="assets/img/about-us/active-customer-icon.svg" alt="active-customer-icon">
+                                </div>
+                                <div class="title">
+                                    <h2 class="number"><span>512</span>+</h2>
+                                    <p>Созданных лестниц</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 col-xxl-7">
+                        <div class="about-info ms-4">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase">О нас</span>
+                                <h2 class="title">Мы создаём лестницу, которую вы задумали</h2>
+                            </div>
+                            <p></p>
+                            <div class="about-list">
+                                <div class="about-list-items d-flex">
+                                    <div class="icon">
+                                        <i class="fas fa-angle-double-right"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h4 class="title">Под ключ</h4>
+                                        <p>Выезд замерщика , соблюдение сроков изготовления , монтаж.</p>
+                                    </div>
+                                </div>
+                                <div class="about-list-items d-flex">
+                                    <div class="icon">
+                                        <i class="fas fa-angle-double-right"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h4 class="title">Гарантии</h4>
+                                        <p>Мы предлагаем гарантии на наши лестницы до 10 лет по договору!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about us part end -->
+
+         <!-- counter part start -->
+         <section class="counter-area-one">
+            <div class="container">
+                <div class="row g-4 g-lg-0">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="counter-one-item d-flex align-items-center">
+                            <div class="icon">
+                                <img src="assets/img/counter/counter-1.svg" alt="feature-1">
+                            </div>
+                            <div class="info">
+                                <h2 class="counter-number"><span class="odometer" data-count="270"></span>+</h2>
+                                <p>Подписанных договоров</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="counter-one-item d-flex align-items-center">
+                            <div class="icon">
+                                <img src="assets/img/counter/counter-2.svg" alt="feature-2">
+                            </div>
+                            <div class="info">
+                                <h2 class="counter-number"><span class="odometer" data-count="372+"></span>+</h2>
+                                <p>Созданных лестниц</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="counter-one-item d-flex align-items-center">
+                            <div class="icon">
+                                <img src="assets/img/counter/counter-3.svg" alt="feature-3">
+                            </div>
+                            <div class="info">
+                                <h2 class="counter-number"><span class="odometer" data-count="100"></span>+</h2>
+                                <p>Тонн метала сварено нами</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="counter-one-item d-flex align-items-center">
+                            <div class="icon">
+                                <img src="assets/img/counter/counter-4.svg" alt="feature-4">
+                            </div>
+                            <div class="info">
+                                <h2 class="counter-number"><span class="odometer" data-count="10"></span>+</h2>
+                                <p>Лет опыта работы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter part end -->
+
+        <!-- recent work part start -->
+        <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl1">Закрытый каркас</h2>
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">под зашивку</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-1.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-2.jpeg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-3.jpeg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-4.jpg" alt="work-4" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+         <!-- recent work part start -->
+         <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl2">Монокосоур</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-5.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-6.jpg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-7.jpg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-8.jpg" alt="work-1" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+         <!-- recent work part start -->
+         <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl3">Ломаный косоур</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-9.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-10.jpg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-11.jpg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-12.jpg" alt="work-1" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+         <!-- recent work part start -->
+         <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl4">Уличная лестница</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-13.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-14.jpg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-15.jpg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-16.jpg" alt="work-1" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+         <!-- recent work part start -->
+         <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl5">Винтовая лестница</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-17.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-18.jpg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-19.jpg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-20.jpg" alt="work-1" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+         <!-- recent work part start -->
+         <section class="recent-work-area-one">
+            <div class="recent-work-one-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="section-title-one">
+                                <span class="sub-title uppercase wow fadeInUp" data-wow-delay=".2s">Фото наших работ</span>
+                                <h2 class="title text-white wow fadeInUp" data-wow-delay=".4s" id="usl6">Перила для лестниц</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row recent-work-slider-one">
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-21.jpg" alt="work-1" class="img-fluid w-100">
+                               
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-22.jpg" alt="work-2" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                   
+                                        <img src="assets/img/works/work-23.jpg" alt="work-3" class="img-fluid w-100">
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project-item-one position-relative">
+                                <div class="image">
+                                    
+                                        <img src="assets/img/works/work-24.jpg" alt="work-1" class="img-fluid w-100">
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recent work part end -->
+
+      
+
+
+        
+
+       
+
+       
+
+        <!-- faq part start -->
+        <section class="faq-area-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title-one">
+                            <span class="sub-title uppercase" id="faq">faq</span>
+                            <h2 class="title">Часто задаваемые вопросы!</h2>
+                        </div>
+                        <div class="faq-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Каким образом производится сварка и нарезка металла?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Полуавтоматическая сварка — механизированная дуговая сварка металлическим плавящимся электродом (проволокой) в среде защитных газов. Нарезка в размер осуществляется на ленточно-пильном станке с максимальной погрешностью 0,1 мм.
+
+                                                Изготовление пластин производится посредством лазерной резки. Лазерная резка – это специальная технология обработки или резки материалов с использованием лазерного луча высокой мощности.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Сколько по времени  изготавливается металлокаркас лестницы?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Сроки изготовления зависят от загруженности производства на момент заказа, а также от сложности конструкции изделия.
+
+                                                Зачастую составляют от 7 до 25 рабочих дней. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Можно заказать отделку деревянными элементами и перила отдельно от металлокаркаса либо через какой-то срок после его монтажа?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Да, вы можете планировать работы поэтапно. Заказать металлокаркас до чистовой отделки помещения, а отделку установить, когда все черновые работы будут завершены.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Можно приехать к вам на производство?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Конечно. По предварительной договоренности вы можете посетить наше производство.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Какие материалы используете для изготовления метталокаркаса лестниц ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Материал подбирается под каждый проект индивидуально. Основные используемые материалы для изготовления. Для закрытого каркаса используется профильная труба 100*50мм с толщиной стенки 3 мм и уголок 32мм, для ломаных косоуров профильная труба 100*50*3 мм, а для монокосоура проф. труба 150*100*5мм и металлический лист толщиной 6мм для пластин под ступень.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ms-auto">
+                        <div class="faq-image">
+                            <div class="image-one">
+                                <img src="assets/img/faqs/faq-image-one.png" alt="faq-image-one">
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq part end -->
+
+       
+
+        <!-- messages area start -->
+        <section class="messages-area-one" id="zayavka">
+            <div class="messages-area-one-bg">
+                <div class="container">
+                    <div class="messages-area-one-main">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image pe-3">
+                                    <img src="assets/img/messages/messages-image.jpg" alt="messages-image"
+                                        class="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                                <div class="text">
+                                    <div class="section-title-one">
+                                        <span class="sub-title uppercase white">напишите нам</span>
+                                        <h2 class="title white">Заказать расчёт</h2>
+                                    </div>
+                                    <div class="messages-box">
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="input-group">
+                                                        <input type="text" placeholder="Ваше имя">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="input-group">
+                                                        <input type="text" placeholder="Ваш Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="input-group">
+                                                        <input type="text" placeholder="Телефон">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="input-group">
+                                                        <select>
+                                                            <option selected>Закрытый каркас</option>
+                                                            <option value="">Монокосоур</option>
+                                                            <option value="">Уличные лестницы</option>
+                                                            <option value="">Ломаный косоур</option>
+                                                            <option value="">Винтовые лестницы</option>
+                                                            <option value="">Перила для лестниц</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="input-group">
+                                                        <textarea rows="4" placeholder="Сообщение"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <button type="submit" class="submit-btn uppercase">Отправить</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- messages area end -->
+
+       
+    </main>
+    <!-- main area part end -->
+
+    <!-- scroll top part start -->
+    <button class="scroll-to-top">
+        <i class="fas fa-angle-up"></i>
+    </button>
+    <!-- scroll top part end -->
+
+    <!-- footer part start -->
+    <footer class="footer-area-one" id="contacts">
+        <div class="footer-area-one-bg">
+            <div class="container">
+                <div class="footer-top-one">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo/white-logo.png" alt="white-logo">
+                                    </a>
+                                </div>
+                                <div class="footer-content">
+                                    <p></p>
+                                    <div class="social">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget ms-5">
+                                <h4 class="footer-title uppercase">Навигация</h4>
+                                <div class="footer-link">
+                                    <ul>
+                                        <li><a href="#usl1"><i class="fas fa-angle-right"></i> Закрытый каркас</a></li>
+                                        <li><a href="#usl2"><i class="fas fa-angle-right"></i> Монокосоур</a></li>
+                                        <li><a href="#usl3"><i class="fas fa-angle-right"></i> Ломаный косоур</a></li>
+                                        <li><a href="#usl4"><i class="fas fa-angle-right"></i> Уличная лестница</a></li>
+                                        <li><a href="#usl5"><i class="fas fa-angle-right"></i> Винтовая лестница</a></li>
+                                        <li><a href="#usl6"><i class="fas fa-angle-right"></i> Перила для лестниц</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-widget">
+                                <h4 class="footer-title uppercase">Контакты</h4>
+                                <div class="footer-address">
+                                    <ul>
+                                        <li class="d-flex">
+                                            <div class="icon">
+                                                <i class="fas fa-paper-plane"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>Санкт-Петербург, Стрельна, Нижняя дорога 2а</p>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="content">
+                                                <a href="mailto:metallmaster.78@yandex.ru">metallmaster.78@yandex.ru</a>
+                                                
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </div>
+                                            <div class="content">
+                                                <a href="tel:+79006223883">+7(900) 622-3883</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
